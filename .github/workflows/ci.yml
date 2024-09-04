@@ -1,18 +1,16 @@
-name: Continuous integration - Reusable
+name: Continuous Integration - Reusable
 on: [workflow_call]
 jobs:
   CI_Steps:
     runs-on: ubuntu-latest
     steps:
-      - name: code checkout
+      - name: Code Checkout
         uses: actions/checkout@v4
-      - run: echo ok
+      - run: echo OK
         name: Code Build
-      - run: echo ok
+      - run: echo OK
         name: Code Test
-      - run: echo ok
+      - run: echo OK
         name: Code Review
-      - run: echo ok
+      - run: echo OK
         name: Release Software
-
-
