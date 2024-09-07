@@ -5,9 +5,9 @@ on:
       project_name:
         required: true
         type: string
-        npm_install:
-          required: true
-          type: boolean
+      npm_install:
+        required: true
+        type: boolean
     secrets:
       vault_token:
         required: true
